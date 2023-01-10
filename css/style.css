@@ -1,0 +1,264 @@
+/*  */
+
+:root {
+    --main-text-color: #212121;
+    --project-color: #2196F3;
+    --second-text-color: #757575;
+    --third-text-color: #fff;
+    --hero-back-color: #2F303A;
+    --background-color: #F5F5F5;
+    --section-team-back-color: #F5F4FA;
+    --project-section-back: #EEEEEE;
+
+
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--main-text-color);
+    background-color: var(--third-text-color);
+    
+
+}
+
+/* header */
+
+.header {
+    /* color */
+    background-color: var(--third-text-color);
+    color: var(--main-text-color);
+    /* font */
+    font-weight: bold;
+    line-height: 1.2;
+    
+}
+
+
+.header a { 
+ color: var(--main-text-color);
+}
+
+
+.logo-header {
+    /* font */
+    font-family: 'Raleway';
+    font-style: bold;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    /* color */
+    color: #000;
+}
+.logo-header > span {
+    /* color */
+    color: #2196F3;
+}
+
+.navigation a:hover,
+.navigation a:focus {
+    /* color */
+    color: var(--project-color);
+}
+
+.contacts a {
+    /* color */
+    color: var(--second-text-color);
+}
+.contacts a:hover,
+.contacts a:focus {
+    /* color */
+    color: var(--project-color);
+}
+
+
+
+/* main */
+
+/*----hero-section----*/
+.hero {
+    /* color */
+    background-color: #2F303A;
+    color: var(--third-text-color);
+    /* font */
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
+}
+.hero-button {
+    /* color */
+    color: var(--third-text-color);
+    background-color: var(--project-color);
+    /* cursor */
+    cursor: pointer;
+    /* font */
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.8;
+}
+.hero-button:hover,
+.hero-button:focus {
+    /* color */
+    background-color: var(--third-text-color);
+    color: var(--project-color);
+}
+
+
+/* -----advantages----- */
+
+
+.feature h3 {
+    /* font */
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.2;
+    /* color */
+    color: var(--main-text-color);
+}
+.feature p {
+    /* font */
+    font-size: 14px;
+    line-height: 1.8;
+    /* color */
+    color: var(--second-text-color);
+}
+
+/* ----employment---- */
+
+.employment title {
+    /* font */
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.3;
+    /* color */
+    color: var(--main-text-color);
+}
+
+
+/* -------team------- */
+.team {
+    background-color: var(--section-team-back-color);
+
+}
+.team title {
+    /* font */
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    /* color */
+    color: var(--main-text-color);
+}
+.team li {
+    background-color: var(--third-text-color);
+}
+.team h3 {
+    /* font */
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    /* color */
+    color: var(--main-text-color);
+}
+.team p {
+    /* font */
+    font-size: 16px;
+    line-height: 1.2;
+    /* color */
+    color: var(--second-text-color);
+}
+
+
+
+
+
+
+
+
+/* footer */
+
+.footer {
+    /* color */
+    background-color: #2F303A;
+    /* font */
+    font-weight: 400;
+}
+.logo-footer {
+    /* font */
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 2;
+    /* color */
+    color: var(--third-text-color);
+}
+.logo-footer span {
+    color: var(--project-color);
+}
+.map {
+    color: var(--third-text-color);
+}
+.contacts-footer a {
+    color: var(--third-text-color);
+    opacity: 0.6;
+}
+
+
+
+/* PORTFOLIO */
+
+.main {
+    background-color: var(--third-text-color);
+}
+.portfolio {
+    background-color: var(--third-text-color);
+}
+
+.button {
+    /* font */
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    /* cursor */
+    cursor: pointer;
+    /* color */
+    background-color: var(--section-team-back-color);
+    
+}
+.button .name {
+    /* font */
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    color: var(--main-text-color);
+
+}
+.button:hover {
+    color: #fff;
+    background-color: var(--project-color);
+}
+.button .name:hover {
+    color: var(--background-color)
+}
+
+
+.projects  li {
+    background-color: var(--third-text-color);
+}
+.projects h1{
+    /* font */
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    /* color */
+    color: var(--main-text-color);
+}
+.projects p {
+    /* font */
+    font-family: 'Roboto';
+    font-size: 16px;
+    line-height: 1.9;
+    /* color */
+    color: var(--second-text-color);
+}
